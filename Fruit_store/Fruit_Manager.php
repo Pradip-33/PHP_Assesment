@@ -25,7 +25,7 @@
         break;
         case 2: header('location:stock.php');
         break;
-        case 3: header('location:Update.php');
+        case 3: header('location:Stock.php');
         break;
         default:
         echo "Enter Number betwin 1 to 3";

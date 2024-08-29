@@ -2,7 +2,7 @@
 $db = "Fruit";
 $tb = "Fruit_Market";
 if(isset($_POST['Submit'])){
- $id = $_POST['ID'];
+ $id = $_POST['id'];
  $Fruit_name = $_POST['Fruit'];
  $stocks = $_POST['stock']; 
  $con = mysqli_connect("localhost","root","",$db);

@@ -7,13 +7,13 @@
 </head>
 <body>
     <?php
-    if(isset($_GET['ID'])){
-        $id = $_GET['ID'];
+    if(isset($_GET['id'])){
+        $id = $_GET['id'];
         $db = "Fruit";
         $tb = "Fruit_Market";
         $con = mysqli_connect("localhost","root","",$db);
         if(!$con) die("Connection Error");
-        echo $sql = "SELECT * FROM $tb where id=".$id;
+         $sql = "SELECT * FROM $tb where id= ".$id;
         $data = mysqli_query($con,$sql);
         $b = mysqli_fetch_assoc($data);
     }
