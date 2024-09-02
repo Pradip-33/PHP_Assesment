@@ -25,9 +25,12 @@
     <label align="center" for="Fruit">Fruit Name</label>
     <input type="text" name="Fruit" id="Fruit" value="<?php echo (isset($id))?$b['Fruit_Name']:'';?>">
     <label align="center" for="stock">Stock</label>
-    <input type="text" name="stock" id="stock" value="<?php echo (isset($id))?$b['Stock']:'';?>"><br><br><br>
+    <input type="text" name="stock" id="stock" value="<?php echo (isset($id))?$b['Stock']:'';?>">
+    <label for="Price">Price/Kg</label>
+    <input type="text" name="Price" id="Price" value="<?php echo (isset($id))?$b['Price']:'';?>"><br><br><br>
     <input type="Submit" name="Submit" id="submit" value="<?php echo isset($id)?'Update':'Submit';?>" >
 
    </form>
+   
 </body>
 </html> 

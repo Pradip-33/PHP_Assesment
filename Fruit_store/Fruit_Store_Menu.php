@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body background="img1.jpg">
+    
+    
     <form action="#" method="post" align="center">
     <h3 align="center">WELCOME TO FRUIT MARKET</h3>
     <h4 align="center">1) Manager</h4>

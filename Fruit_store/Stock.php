@@ -34,7 +34,7 @@ $res = mysqli_query($con,$sql)
             <td><?php echo $b['ID']?></td>
             <td><?php echo $b['Fruit_Name']?></td>
             <td><?php echo $b['Stock']?></td>
-            <td><?php echo $b['Price/KG']?></td>
+            <td><?php echo $b['Price']?></td>
     
             <td><a href="Add.php?id=<?php echo $b['ID']?>" class="btn btn-primary " class="text-light">Update</a></td>
         </tr> 
